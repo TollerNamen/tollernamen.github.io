@@ -1,0 +1,16 @@
+main {
+  text-align: center;
+  font-family: sans-serif;
+}
+dl {
+  width: 200px;
+  margin: auto;
+  list-style-type: circle;
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+dt:before, dd::before {
+  content: "• ";
+}
