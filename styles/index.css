@@ -12,18 +12,21 @@ main {
   font-family: sans-serif;
 }
 dl {
-  width: 200px;
+  width: max-content;
   margin: auto;
   list-style-type: circle;
   text-align: left;
   border: 1px solid white;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
+}
+dt dd {
+  display: block;
 }
 dt:before, dd::before {
   content: "• ";
 }
 p {
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
