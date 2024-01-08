@@ -1,3 +1,12 @@
+body {
+  background-color: black;
+}
+:not(a) {
+  color: white;
+}
+a {
+  color: #7777ff;
+}
 main {
   text-align: center;
   font-family: sans-serif;
@@ -7,10 +16,14 @@ dl {
   margin: auto;
   list-style-type: circle;
   text-align: left;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 5px;
   padding: 5px;
 }
 dt:before, dd::before {
   content: "• ";
+}
+p {
+  width: 70%;
+  margin: auto;
 }
